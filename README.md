@@ -11,6 +11,7 @@ Selenium TestNG automation framework for [SauceDemo](https://www.saucedemo.com/)
 - Allure Reports
 
 ## 📁 Project Structure
+```
 src/test/java/com/example/
 ├── pages/          # Page Object Model classes
 │   ├── LoginPage.java
@@ -20,7 +21,7 @@ src/test/java/com/example/
     ├── LoginTest.java
     ├── ProductsTest.java
     └── CartTest.java
-
+```
 ## ✅ Test Cases (9 Total)
 - Valid Login
 - Invalid Login
@@ -34,7 +35,10 @@ src/test/java/com/example/
 
 ## ▶️ How to Run
 # Run all tests
+```
 mvn clean test
-
+```
 # Generate Allure Report
+```
 mvn allure:serve
+```
